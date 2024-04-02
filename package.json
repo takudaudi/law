@@ -1,8 +1,8 @@
 {
   "name": "nextplate",
   "version": "2.3.2",
-  "description": "Nextjs and Tailwindcss boilerplate",
-  "author": "zeon.studio",
+  "description": "cjnt",
+  "author": "takudaudi",
   "license": "MIT",
   "packageManager": "yarn@1.22.19",
   "scripts": {
@@ -16,7 +16,7 @@
     "remove-darkmode": "node scripts/removeDarkmode.js && yarn format"
   },
   "engines": {
-    "node": ">=18.0.0"
+    "node": "14.x"
   },
   "dependencies": {
     "date-fns": "^3.3.1",
