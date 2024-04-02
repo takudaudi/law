@@ -1,51 +1,56 @@
 ---
 # Banner
+# Banner
 banner:
-  title: "The Ultimate Starter Template You Need To Start Your Next Project"
-  content: "Nextplate is a free starter template built with Next and TailwindCSS, providing everything you need to jumpstart your Next project and save valuable time."
+  title: "WELCOME TO CHINAMATIRA JONASI NYAMBIRA & TAMBANEWENYU LEGAL PRACTITIONERS"
+  content: "In addition to our core practice areas, we offer a range of specialized legal services to meet our clients' diverse needs. Our services include mediation and arbitration for dispute resolution, legal consulting for strategic guidance, and international law expertise for cross-border matters."
   image: "/images/banner.png"
   button:
     enable: true
     label: "Get Started For Free"
-    link: "https://github.com/zeon-studio/nextplate"
+    link: "/"
 
 # Features
 features:
-  - title: "What's Included in Nextplate"
+  - title: "What's Included with CJNT"
     image: "/images/service-1.png"
-    content: "Nextplate is a comprehensive starter template that includes everything you need to get started with your Next project. What's Included in Nextplate"
+    content: "Our services provide comprehensive coverage of essential law topics to help you navigate legal complexities and make informed decisions. Whether you're an individual, a business, or a legal professional, our offerings include:"
     bulletpoints:
-      - "10+ Pre-build pages"
-      - "95+ Google Pagespeed Score"
-      - "Build with Next and TailwindCSS for easy and customizable styling"
-      - "Fully responsive on all devices"
-      - "SEO-optimized for better search engine rankings"
-      - "**Open-source and free** for personal and commercial use"
+      - "Contract Law: Understand the principles and requirements for creating legally binding agreements, including elements of offer, acceptance, consideration, and terms."
+      - "Employment Law: Learn about the rights and responsibilities of employers and employees, including topics such as discrimination, wage and hour compliance, and workplace safety."
+      - "Intellectual Property Law: Gain insights into protecting and managing intellectual property rights, including trademarks, copyrights, and patents."
+      - "Privacy and Data Protection: Navigate privacy laws, cybersecurity regulations, and data protection requirements to safeguard personal information and ensure compliance."
+      - "Criminal Law: Understand the basics of criminal offenses, legal procedures, and the rights of individuals accused of crimes."
+      - "Tax Law: Learn about tax obligations, deductions, credits, and strategies for individuals and businesses."
     button:
       enable: false
       label: "Get Started Now"
       link: "#"
 
-  - title: "Discover the Key Features Of Next"
+  - title: "Aims and Values  of CJNT"
     image: "/images/service-2.png"
-    content: "Next is an all-in-one web framework for building fast, content-focused websites. It offers a range of exciting features for developers and website creators. Some of the key features are:"
+    content: "We aim to nurture mutually beneficial and long-lasting relationships with our clients through the consistent delivery of services of the highest quality."
     bulletpoints:
-      - "Zero JS, by default: No JavaScript runtime overhead to slow you down."
-      - "Customizable: Tailwind, MDX, and 100+ other integrations to choose from."
-      - "UI-agnostic: Supports React, Preact, Svelte, Vue, Solid, Lit and more."
+      - "We value integrity, consistency, and quality."
     button:
       enable: true
       label: "Get Started Now"
       link: "https://github.com/zeon-studio/nextplate"
 
-  - title: "The Top Reasons to Choose Next for Your Next Project"
+  - title: "AREAS OF PRACTICE"
     image: "/images/service-3.png"
-    content: "With Next, you can build modern and content-focused websites without sacrificing performance or ease of use."
+    content: "At CJNT, we offer a full range of corporate and commercial legal services, including but not limited to, dispute resolution, civil and criminal litigation, arbitration, employment, finance, company restructuring, real estate, tax, trusts and estates, conveyancing, and debt recovery."
     bulletpoints:
-      - "Instantly load static sites for better user experience and SEO."
-      - "Intuitive syntax and support for popular frameworks make learning and using Next a breeze."
-      - "Use any front-end library or framework, or build custom components, for any project size."
-      - "Built on cutting-edge technology to keep your projects up-to-date with the latest web standards."
+      - "Tax Law"
+      - "Intellectual Property Law"
+      - "Employment and Labour Law"
+      - "Banking and Finance Law"
+      - "Succession Law and Management of Estate"
+      - "Mining Law"
+      - "Corporate Law"
+      - "Real Estate and Construction"
+      - "Family Law"
+      - "Insurance Law"
     button:
       enable: false
       label: ""

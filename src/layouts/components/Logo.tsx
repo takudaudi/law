@@ -1,5 +1,3 @@
-"use client";
-
 import config from "@/config/config.json";
 import { useTheme } from "next-themes";
 import Image from "next/image";
@@ -7,7 +5,7 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 
 const Logo = ({ src }: { src?: string }) => {
-  // destructuring items from config object
+  // Destructuring items from config object
   const {
     logo,
     logo_darkmode,
@@ -35,24 +33,32 @@ const Logo = ({ src }: { src?: string }) => {
   const logoPath = src ? src : resolvedLogo;
 
   return (
-    <Link href="/" className="navbar-brand inline-block">
-      {logoPath ? (
-        <Image
-          width={logo_width.replace("px", "") * 2}
-          height={logo_height.replace("px", "") * 2}
-          src={logoPath}
-          alt={title}
-          priority
-          style={{
-            height: logo_height.replace("px", "") + "px",
-            width: logo_width.replace("px", "") + "px",
-          }}
-        />
-      ) : logo_text ? (
-        logo_text
-      ) : (
-        title
-      )}
+    <Link href="/" passHref>
+      <div
+        className="logo-container"
+        style={{
+          position: "absolute",
+          top: "10px",
+          left: "10px",
+          width: "80px", // Adjust the width value as desired
+          height: "auto", // Adjust the height value as desired
+        }}
+      >
+        {logoPath ? (
+          <Image
+            src={logoPath}
+            alt={title}
+            priority
+            layout="responsive"
+            width={80} // Adjust the width value as desired
+            height={80} // Adjust the height value as desired
+          />
+        ) : logo_text ? (
+          logo_text
+        ) : (
+          title
+        )}
+      </div>
     </Link>
   );
 };
