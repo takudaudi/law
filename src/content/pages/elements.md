@@ -111,12 +111,12 @@ Some text to show that the reference links can follow later.
 #### CSS
 
 ```css
-img {
+/* img {
   vertical-align: middle;
   border: 0;
   max-width: 100%;
   height: auto;
-}
+} */
 ```
 
 ---
